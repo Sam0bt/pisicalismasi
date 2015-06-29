@@ -21,7 +21,7 @@
             <Dependency>expat</Dependency>
             <Dependency>git</Dependency>
 	    <Dependency>libaio</Dependency>
-            <Dependency>libgcc</Dependency>	    
+            <Dependency>libgcc</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="all">/</Path>
