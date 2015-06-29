@@ -12,11 +12,14 @@
         <IsA>app:console</IsA>
         <Summary>Utility to change hard drive performance parameters</Summary>
         <Description>hdparm has some useful utilities that allows you to get/set hard disk parameters for Linux IDE drives in runtime.</Description>
-        <Archive sha1sum="1efce086ef47667cf8016861d3ce958969e70dfc" type="targz">http://netcologne.dl.sourceforge.net/project/hdparm/hdparm/hdparm-9.48.tar.gz</Archive>
+        <Archive sha1sum="fbacae57c0ca71187a3001e72155b5fbfe577a71" type="targz">http://downloads.sourceforge.net/hdparm/hdparm-9.47.tar.gz</Archive>
     </Source>
 
     <Package>
         <Name>hdparm</Name>
+	<RunDependencies>
+	  <Dependencies>glibc-32bit</Dependencies>
+       </RunDependencies> 
         <Files>
             <Path fileType="executable">/sbin</Path>
             <Path fileType="doc">/usr/share/doc</Path>
@@ -30,10 +33,10 @@
 
     <History>
       <Update release="3">
-            <Date>2015-06-25</Date>
-            <Version>9.48</Version>
+            <Date>2015-06-13</Date>
+            <Version>9.43</Version>
             <Comment>versionbump</Comment>
-            <Name>alialgul(gulle)</Name>
+            <Name>alialgul</Name>
             <Email>alialgul@pisilinux.org</Email>
         </Update>
         <Update release="2">
