@@ -1,0 +1,35 @@
+<PISI>
+    <Source>
+        <Name>nubasic</Name>
+        <Homepage>http://www.nubasic.eu/</Homepage>
+        <Packager>
+            <Name>alialgul</Name>
+            <Email>alialgul@pisilinux.com</Email>
+        </Packager>
+        <License>GPLv2+</License>
+        <Summary>nubasic</Summary>
+        <Description>nuBASIC is an implementation of an interpreter of the BASIC programming language (written in C++ for educational purposes).</Description>
+        <Archive sha1sum="6ca24093bea51617602dbab8653ca782c4ea24c3" type="targz">http://fossies.org/linux/privat/nubasic-1.30.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>nubasic</Name>
+        <RuntimeDependencies>
+            <Dependency>libX11</Dependency>
+            <Dependency>libgcc</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="all">/</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-06-28</Date>
+            <Version>1.30</Version>
+            <Comment>nuBASIC is an implementation of an interpreter of the BASIC programming language (written in C++ for educational purposes). </Comment>
+            <Name>alialgul</Name>
+            <Email>alialgul@pisilinux.com</Email>
+        </Update>
+    </History>
+</PISI>
+
+<!-- By PiSiDo 2.0.0 -->

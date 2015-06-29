@@ -1,0 +1,44 @@
+<PISI>
+    <Source>
+        <Name>gmock</Name>
+        <Homepage>https://googlemock.googlecode.com/</Homepage>
+        <Packager>
+            <Name>alialgul</Name>
+            <Email>alialgul@pisilinux.com</Email>
+        </Packager>
+        <License>GPLv2+</License>
+        <Summary>google Mock - A library for writing and using C++ mock classes</Summary>
+        <Description>google Mock - A library for writing and using C++ mock classes</Description>
+        <BuildDependencies>
+            <Dependency>googletest-devel</Dependency>
+        </BuildDependencies>
+	<RuntimeDependencies>
+            <Dependency>libgcc</Dependency>          
+	</RuntimeDependencies>
+	<Patches>
+            <Patch level="1">reenable_make_install.patch</Patch>
+	    <Patch level="1">import_private_module.patch</Patch>
+        </Patches>
+        <Archive sha1sum="f9d9dd882a25f4069ed9ee48e70aff1b53e3c5a5" type="zip">https://googlemock.googlecode.com/files/gmock-1.7.0.zip</Archive>
+    </Source>
+    <Package>
+        <Name>gmock</Name>
+        <Files>      
+            
+            <Path fileType="library">/usr/lib</Path>
+            <Path fileType="header">/usr/include/gmock/</Path>
+             <Path fileType="header">/usr/include/gmock/internal</Path> 
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-06-29</Date>
+            <Version>1.7.0</Version>
+            <Comment>First release</Comment>
+            <Name>alialgül(gulle)</Name>
+            <Email>alialgul@pisilinux..com</Email>
+        </Update>
+    </History>
+</PISI>
+
+<!-- By PiSiDo 2.0.0 -->

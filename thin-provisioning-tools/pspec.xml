@@ -1,0 +1,41 @@
+<PISI>
+    <Source>
+        <Name>thin-provisioning-tools</Name>
+        <Homepage>https://github.com/jthornber/thin-provisioning-tools</Homepage>
+        <Packager>
+            <Name>aligulle</Name>
+            <Email>aligulle@pisilinux.com</Email>
+        </Packager>
+        <License>GPLv2+</License>
+        <Summary>thin-provisioning-tools</Summary>
+        <Description>thin-provisioning-tools</Description>
+        <Archive sha1sum="3e20c82a051fa77e344bb3b62738e6c983a339ea" type="zip">https://codeload.github.com/jthornber/thin-provisioning-tools/zip/master</Archive>
+    </Source>
+    <BuildDependencies>
+            <Dependency>boost-devel</Dependency>
+        </BuildDependencies>
+    <Package>
+        <Name>thin-provisioning-tools</Name>
+        <RuntimeDependencies>
+            <Dependency>boost</Dependency>
+            <Dependency>expat</Dependency>
+            <Dependency>git</Dependency>
+	    <Dependency>libaio</Dependency>
+            <Dependency>libgcc</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="all">/</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-06-29</Date>
+            <Version>0.3.2</Version>
+            <Comment>First release</Comment>
+            <Name>aligulle</Name>
+            <Email>aligulle@pisilinux.com</Email>
+        </Update>
+    </History>
+</PISI>
+
+<!-- By PiSiDo 2.0.0 -->
