@@ -1,0 +1,31 @@
+<PISI>
+    <Source>
+        <Name>open-ecard</Name>
+        <Homepage>HGJ</Homepage>
+        <Packager>
+            <Name>STRYUJK</Name>
+            <Email>W45678O</Email>
+        </Packager>
+        <License>GPLv2+</License>
+        <Summary>TRYYJ</Summary>
+        <Description>RTYHUJUK</Description>
+        <Archive sha1sum="fef7a20e5b9368aac4d74260baee6fd96095fb45" type="tarxz">/home/gulle/İndirilenler/open-ecard-1.1.0-rc17.tar.xz</Archive>
+    </Source>
+    <Package>
+        <Name>open-ecard</Name>
+        <Files>
+            <Path fileType="all">/</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-06-30</Date>
+            <Version>1.1.0</Version>
+            <Comment>YTUK</Comment>
+            <Name>STRYUJK</Name>
+            <Email>W45678O</Email>
+        </Update>
+    </History>
+</PISI>
+
+<!-- By PiSiDo 2.0.0 -->
