@@ -12,7 +12,7 @@
         <IsA>app:gui</IsA>
         <Summary>TLS/SSL - Port Wrapper</Summary>
         <Description>The stunnel package contains a program that allows you to encrypt arbitrary TCP connections inside SSL (Secure Sockets Layer) so you can easily communicate with clients over secure channels.</Description>
-        <Archive sha1sum="c83cf0125b12cd694a36ff43c2ec380e3a6f68b8" type="targz">http://mirrors.zerg.biz/stunnel/stunnel-5.18.tar.gz</Archive>
+        <Archive sha1sum="02b5b3a997987f427cd36c85d75b6eaf8d8a7c30" type="targz">http://mirrors.zerg.biz/stunnel/stunnel-5.19.tar.gz</Archive>
         <BuildDependencies>
             <Dependency>openssl-devel</Dependency>
 	    
@@ -25,6 +25,7 @@
 	    <Dependency>zlib-32bit</Dependency>
 	    <Dependency>glibc-32bit</Dependency>
 	    <Dependency>tcp-wrappers</Dependency>
+	    <Dependency>zlib</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
@@ -37,8 +38,8 @@
     </Package>
     <History>
       <Update release="7">
-            <Date>2015-06-14</Date>
-            <Version>5.18</Version>
+            <Date>2015-07-01</Date>
+            <Version>5.19</Version>
             <Comment>Version bump.</Comment>
             <Name>alialgul</Name>
             <Email>alialgul@gmail.com</Email>

@@ -92,6 +92,9 @@
             <Dependency>libpciaccess</Dependency>
             <Dependency>libxshmfence</Dependency>
             <Dependency>libepoxy</Dependency>
+	    <Dependency>libXau</Dependency>
+	    <Dependency>libudev</Dependency>
+	    <Dependency>libXdmcp</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="config">/etc/X11/xorg.conf.d</Path>
@@ -137,6 +140,7 @@
             <Dependency>libXfixes</Dependency>
             <Dependency>libXrender</Dependency>
             <Dependency>libunwind</Dependency>
+	     <Dependency>libX11</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin/*dmx*</Path>
@@ -236,7 +240,9 @@
             <Dependency>libpciaccess-devel</Dependency>
             <Dependency>pixman-devel</Dependency>
             <Dependency>mesa-devel</Dependency>
+            <Dependency>xorg-proto</Dependency>
         </RuntimeDependencies>
+	
         <Files>
             <Path fileType="header">/usr/include/xorg</Path>
             <Path fileType="library">/usr/lib/libxf86config.a</Path>

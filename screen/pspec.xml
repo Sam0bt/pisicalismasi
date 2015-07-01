@@ -13,6 +13,8 @@
         <Summary>Terminal multiplexer (to have multiple sessions in a single terminal window)</Summary>
         <Description>GNU Screen is a free terminal multiplexer developed by the GNU Project. It allows a user to access multiple separate terminal sessions inside a single terminal window or remote terminal session.</Description>
         <Archive sha1sum="504c424f719cd44907a3390d5238759e1cb56741" type="targz">http://fossies.org/linux/misc/screen-4.3.0.tar.gz</Archive>
+	
+	
         <Patches>
 <!--             <Patch>screen-4.0.1-int-overflow-fix.patch</Patch> -->
 <!--             <Patch level="1">screen-4.0.1-vsprintf.patch</Patch> -->
@@ -30,6 +32,10 @@
 
     <Package>
         <Name>screen</Name>
+	<RuntimeDependencies>
+            <Dependency>pam</Dependency>
+	    <Dependency>ncurses</Dependency>	    
+        </RuntimeDependencies>
         <Files>
             <Path fileType="data">/run</Path>
             <Path fileType="config">/etc</Path>
