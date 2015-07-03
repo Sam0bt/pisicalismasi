@@ -1,0 +1,49 @@
+<PISI>
+    <Source>
+        <Name>totem-pl-parser</Name>
+        <Homepage>http://www.gnome.org</Homepage>
+        <Packager>
+            <Name>alialgul</Name>
+            <Email>alialgul@@pisilinux.org</Email>
+        </Packager>
+        <License>LGPL</License>
+        <Summary>Totem playlist parser library</Summary>
+        <Description>Totem playlist parser library</Description>
+        <BuildDependencies>
+            <Dependency>libsoup-devel</Dependency>
+	    <Dependency>libarchive-devel</Dependency>
+	    <Dependency>glib2-devel</Dependency>
+	    <Dependency>gmime-devel</Dependency>
+	    <Dependency>libxml2-devel</Dependency>
+        </BuildDependencies>
+        <Archive sha1sum="a1616ee054a297091b3eb4c031c68eb2ad5c1309" type="tarxz">http://ftp.gnome.org/pub/gnome/sources/totem-pl-parser/3.10/totem-pl-parser-3.10.5.tar.xz</Archive>
+    </Source>
+    <Package>
+        <Name>totem-pl-parser</Name>
+        <RuntimeDependencies>
+            <Dependency>libsoup</Dependency>
+	    <Dependency>glib2</Dependency>
+	    <Dependency>gmime</Dependency>
+	    <Dependency>libxml2 </Dependency>
+	    <Dependency>libgcrypt</Dependency>
+	    <Dependency>libarchive </Dependency>
+	    <Dependency>libgpg-error</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="all">/</Path>
+        </Files>
+    </Package>
+    
+    
+    <History>
+        <Update release="1">
+            <Date>2015-07-02</Date>
+            <Version>3.10.5</Version>
+            <Comment>First release</Comment>
+            <Name>alialgul</Name>
+            <Email>alialgul@@pisilinux.org</Email>
+        </Update>
+    </History>
+</PISI>
+
+<!-- By PiSiDo 2.0.0 -->

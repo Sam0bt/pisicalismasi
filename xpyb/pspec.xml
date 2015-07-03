@@ -1,0 +1,39 @@
+<PISI>
+    <Source>
+        <Name>xpyb</Name>
+        <Homepage>http://xcb.freedesktop.org</Homepage>
+        <Packager>
+            <Name>alialgul</Name>
+            <Email>alialgul@pisilinux.org</Email>
+        </Packager>
+        <License>GPLv2+</License>
+        <Summary>CB-based Python bindings for the X Window System</Summary>
+        <Description>CB-based Python bindings for the X Window System</Description>
+        <BuildDependencies>
+            <Dependency>libxcb-devel</Dependency>
+        </BuildDependencies>
+        <Archive sha1sum="098fa1ccc7d04f0a5b4082c71edeae44f399b47c" type="zip">https://codeload.github.com/BurntSushi/xpyb/zip/master</Archive>
+    </Source>
+    <Package>
+        <Name>xpyb</Name>
+        <RuntimeDependencies>
+            <Dependency>libxcb</Dependency>
+            <Dependency>python</Dependency>
+            <Dependency>xcb-proto</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="all">/</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-07-01</Date>
+            <Version>1</Version>
+            <Comment>deneme</Comment>
+            <Name>alialgul</Name>
+            <Email>alialgul@pisilinux.org</Email>
+        </Update>
+    </History>
+</PISI>
+
+<!-- By PiSiDo 2.0.0 -->

@@ -1,0 +1,31 @@
+<PISI>
+    <Source>
+        <Name>gst-plugins-base-1.5.2</Name>
+        <Homepage>dfgrh</Homepage>
+        <Packager>
+            <Name>fgh</Name>
+            <Email>erth</Email>
+        </Packager>
+        <License>GPLv3</License>
+        <Summary>567uı</Summary>
+        <Description>rtyuıol</Description>
+        <Archive sha1sum="b558315499a2dea49aa8989b7e9b5080e5e26c26" type="tarxz">/home/gulle/İndirilenler/gst-plugins-base-1.5.2.tar.xz</Archive>
+    </Source>
+    <Package>
+        <Name>gst-plugins-base-1.5.2</Name>
+        <Files>
+            <Path fileType="all">/</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-07-01</Date>
+            <Version>1.5.2</Version>
+            <Comment>gh</Comment>
+            <Name>fgh</Name>
+            <Email>erth</Email>
+        </Update>
+    </History>
+</PISI>
+
+<!-- By PiSiDo 2.0.0 -->

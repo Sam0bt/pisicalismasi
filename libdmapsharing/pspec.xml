@@ -1,0 +1,44 @@
+<PISI>
+    <Source>
+        <Name>libdmapsharing</Name>
+        <Homepage>https://www.flyn.org</Homepage>
+        <Packager>
+            <Name>alialgul</Name>
+            <Email>alialgul@pisilinux.com</Email>
+        </Packager>
+        <License>GPLv2+</License>
+        <Summary>A library that implements the DMAP family of protocols</Summary>
+        <Description>A library that implements the DMAP family of protocols</Description>
+        <RunDependencies>
+            <Dependency>avahi</Dependency>
+            <Dependency>avahi-glib</Dependency>
+            <Dependency>avahi-libs</Dependency> 
+            <Dependency>libsoup</Dependency>
+	    <Dependency>gdk-pixbuf</Dependency>
+            <Dependency>zlib-32bit</Dependency>
+            <Dependency>glib2-32bit</Dependency> 
+            <Dependency>glibc-32bit</Dependency>
+	    <Dependency>libxml2-32bit</Dependency>
+            <Dependency>gstreamer-32bit</Dependency>
+            <Dependency>gst-plugins-base-32bit</Dependency>
+        </RunDependencies>
+        <Archive sha1sum="72ed29236aadd7d1ebcc2fa2c02b030fb42cee43" type="targz">https://www.flyn.org/projects/libdmapsharing/libdmapsharing-2.9.9.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>libdmapsharing</Name>
+        <Files>
+            <Path fileType="all">/</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-06-19</Date>
+            <Version>2.9.9</Version>
+            <Comment>build</Comment>
+            <Name>alialgul(gülle)</Name>
+            <Email>alialgul@pisiliinux.com</Email>
+        </Update>
+    </History>
+</PISI>
+
+<!-- By PiSiDo 2.0.0 -->
