@@ -1,0 +1,45 @@
+<PISI>
+    <Source>
+        <Name>gst-plugins-base-1.5.2</Name>
+        <Homepage>dfgrh</Homepage>
+        <Packager>
+            <Name>fgh</Name>
+            <Email>erth</Email>
+        </Packager>
+        <License>LGPL</License>
+        <Summary>GStreamer Multimedia Framework Base Plugins</Summary>
+        <Description>GStreamer Multimedia Framework Base Plugins</Description>
+	<BuildDependencies>
+            <Dependency>glib2-devel</Dependency>
+            <Dependency>gstreamer-next-devel</Dependency>            
+	</BuildDependencies>    
+        <Archive sha1sum="b558315499a2dea49aa8989b7e9b5080e5e26c26" type="tarxz">http://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.5.2.tar.xz</Archive>
+	<RuntimeDependencies>
+            <Dependency>zlib</Dependency>
+            <Dependency>cairo</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>libXv</Dependency>
+            <Dependency>pango</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>libXext</Dependency>
+            <Dependency>alsa-lib</Dependency>            
+      </RuntimeDependencies>
+    </Source>
+    <Package>
+        <Name>gst-plugins-base-1.5.2</Name>
+        <Files>
+            <Path fileType="all">/</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-07-01</Date>
+            <Version>1.5.2</Version>
+            <Comment>build</Comment>
+            <Name>Ali Algül(gülle)</Name>
+            <Email>alialgul@pisilinux.org</Email>
+        </Update>
+    </History>
+</PISI>
+
+<!-- By PiSiDo 2.0.0 -->
