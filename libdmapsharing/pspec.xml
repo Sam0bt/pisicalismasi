@@ -13,10 +13,16 @@
 	    <Dependency>glib2-devel</Dependency>
             <Dependency>libsoup-devel</Dependency>
             <Dependency>gstreamer-devel</Dependency>
+	   <Dependency>avahi-compat-libdns_sd-devel</Dependency>
+	   <Dependency>avahi-devel</Dependency>
+	   
 	</BuildDependency>   
-        <RunDependencies>
-            <Dependency>avahi</Dependency>
-            <Dependency>avahi-glib</Dependency>
+        
+        <Archive sha1sum="72ed29236aadd7d1ebcc2fa2c02b030fb42cee43" type="targz">https://www.flyn.org/projects/libdmapsharing/libdmapsharing-2.9.9.tar.gz</Archive>
+    </Source>
+    <RunDependencies>
+            <Dependency>zlib </Dependency>
+            <Dependency>glib2</Dependency>
             <Dependency>avahi-libs</Dependency> 
             <Dependency>libsoup</Dependency>
 	    <Dependency>gdk-pixbuf</Dependency>
@@ -33,11 +39,10 @@
 	    <Dependency>avahi-glib</Dependency>
             <Dependency>avahi-libs</Dependency>
             <Dependency>gdk-pixbuf</Dependency>	 
-	    <Dependency>avahi-compat-libdns_sd  </Dependency>
+	    <Dependency>avahi-compat-libdns_sd</Dependency>
             <Dependency>gst-plugins-base</Dependency>
+	    
         </RunDependencies>
-        <Archive sha1sum="72ed29236aadd7d1ebcc2fa2c02b030fb42cee43" type="targz">https://www.flyn.org/projects/libdmapsharing/libdmapsharing-2.9.9.tar.gz</Archive>
-    </Source>
     <Package>
         <Name>libdmapsharing</Name>
         <Files>

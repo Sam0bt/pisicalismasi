@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<PISI>
+    <Source>
+        <Name>libepoxy</Name>
+        <Summary xml:lang="tr">Epoxy çalışma kitaplığı</Summary>
+        <Description xml:lang="tr">Epoxy,OpenGL işlemek için bir kütüphane yönetim fonksiyonudur.</Description>
+    </Source>
+</PISI>

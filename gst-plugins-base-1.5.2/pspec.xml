@@ -1,10 +1,10 @@
 <PISI>
     <Source>
         <Name>gst-plugins-base-1.5.2</Name>
-        <Homepage>dfgrh</Homepage>
+        <Homepage>ttp://gstreamer.freedesktop.org/</Homepage>
         <Packager>
-            <Name>fgh</Name>
-            <Email>erth</Email>
+            <Name>Ali Algul</Name>
+            <Email>alialgul@pisilinux.org</Email>
         </Packager>
         <License>LGPL</License>
         <Summary>GStreamer Multimedia Framework Base Plugins</Summary>
@@ -22,7 +22,8 @@
             <Dependency>pango</Dependency>
             <Dependency>libX11</Dependency>
             <Dependency>libXext</Dependency>
-            <Dependency>alsa-lib</Dependency>            
+            <Dependency>alsa-lib</Dependency> 
+	    <Dependency>gstreamer-next</Dependency>
       </RuntimeDependencies>
     </Source>
     <Package>

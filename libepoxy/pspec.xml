@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.pisilinux.org/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>libepoxy</Name>
+        <Homepage>https://github.com/anholt/libepoxy</Homepage>
+        <Packager>
+            <Name>PisiLinux Community</Name>
+            <Email>admins@pisilinux.org</Email>
+        </Packager>
+        <License>MIT</License>
+        <IsA>library</IsA>
+        <Summary>Epoxy runtime library</Summary>
+        <Description>A library for handling OpenGL function pointer management.</Description>
+        <Archive sha1sum="2d478c015113c17186ded99b51933b2225422c07" type="tarbz2">http://cznic.dl.sourceforge.net/project/openspa/sources/libepoxy-1.3.tar.bz2</Archive>
+        <BuildDependencies>
+            <Dependency>mesa-devel</Dependency>
+            <Dependency>util-macros</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>libepoxy</Name>
+        <Files>
+            <Path fileType="library">/usr/lib</Path>
+            <Path fileType="data">/usr/share</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+        </Files>
+    </Package>
+ 
+    <Package>
+        <Name>libepoxy-devel</Name>
+        <Files>
+            <Path fileType="header">/usr/include</Path>
+            <Path fileType="data">/usr/lib/pkgconfig</Path>
+        </Files>
+    </Package>
+
+    <History>
+      <Update release="2">
+            <Date>2015-05-10</Date>
+            <Version>1.3</Version>
+            <Comment>First release</Comment>
+            <Name>PisiLinux Community</Name>
+            <Email>admins@pisilinux.org</Email>
+        </Update>
+      
+        <Update release="1">
+            <Date>2015-07-10</Date>
+            <Version>1.3</Version>
+            <Comment>First release</Comment>
+            <Name>alialgul</Name>
+            <Email>alialgul@pisilinux.org</Email>
+        </Update>
+    </History>
+</PISI>

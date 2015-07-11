@@ -11,6 +11,7 @@
         <Description>google Mock - A library for writing and using C++ mock classes</Description>
         <BuildDependencies>
             <Dependency>googletest-devel</Dependency>
+	    <Dependency>libgcc</Dependency>
         </BuildDependencies>
 	<RuntimeDependencies>
             <Dependency>libgcc</Dependency>          

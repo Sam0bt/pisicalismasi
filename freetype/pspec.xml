@@ -30,7 +30,7 @@
 	    <Dependency>zlib-32bit</Dependency>
             <Dependency>glibc-32bit</Dependency>
             <Dependency>libpng-32bit</Dependency>
-	    <Dependency>google-chrome</Dependency>
+<!--   <Dependency>google-chrome</Dependency> --> 
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib</Path>
