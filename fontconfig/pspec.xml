@@ -19,8 +19,7 @@
         </BuildDependencies>
 	<RuntimeDependencies>
             <Dependency>expat</Dependency>
-            <Dependency>freetype</Dependency>
-	    <Dependency>glibc-32bit</Dependency>
+            <Dependency>freetype</Dependency>	    
             <Dependency>fontconfig</Dependency>
 	 </RuntimeDependencies> 
         <Patches>

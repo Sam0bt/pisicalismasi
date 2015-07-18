@@ -14,19 +14,9 @@
         <Description>Colord is a system activated daemon that maps devices to color profiles. It is used by GNOME Color Manager for system integration and use when there are no users logged in.</Description>
         <Archive sha1sum="efd7b7b90ea17a46c12f4dc4138c45f3629a5d2c" type="tarxz">http://www.freedesktop.org/software/colord/releases/colord-1.2.11.tar.xz</Archive>
         <BuildDependencies>
-            <Dependency>intltool</Dependency>
-            <Dependency>gobject-introspection</Dependency>
-            <Dependency>docbook2x</Dependency>
-            <Dependency>argyllcms</Dependency>
-            <Dependency>vala</Dependency>
-            <Dependency>lcms2-devel</Dependency>
+             <Dependency>lcms2-devel</Dependency>
             <Dependency>libgusb-devel</Dependency>
             <Dependency>sane-backends-devel</Dependency>
-            <Dependency>bash-completion</Dependency>
-            <Dependency>vala</Dependency>
-	    <Dependency>glib2</Dependency>
-            <Dependency>libudev</Dependency>
-            <Dependency>libgudev1</Dependency>
         </BuildDependencies>
         <Patches>
         </Patches>
@@ -35,11 +25,24 @@
     <Package>
         <Name>colord</Name>
         <RuntimeDependencies>
+	    <Dependency>intltool</Dependency>
+            <Dependency>gobject-introspection</Dependency>
+            <Dependency>docbook2x</Dependency>
+            <Dependency>argyllcms</Dependency>
+            <Dependency>vala</Dependency>           
+            <Dependency>bash-completion</Dependency>
+            <Dependency>vala</Dependency>
+	    <Dependency>glib2</Dependency>
+            <Dependency>libudev</Dependency>
+            <Dependency>libgudev1</Dependency>
             <Dependency>lcms2</Dependency>
             <Dependency>libgusb</Dependency>
             <Dependency>shared-color-profiles</Dependency>
             <Dependency>sane-backends</Dependency>
             <Dependency>dbus</Dependency>
+            <Dependency>sqlite</Dependency>
+            <Dependency>polkit</Dependency>
+	    <Dependency>dbus</Dependency>
             <Dependency>sqlite</Dependency>
             <Dependency>polkit</Dependency>
         </RuntimeDependencies>

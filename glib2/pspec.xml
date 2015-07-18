@@ -20,10 +20,7 @@
     <Package>
         <Name>glib2</Name>
         <RuntimeDependencies>
-	    <Dependency>zlib-32bit</Dependency>
-	    <Dependency>glibc-32bit</Dependency>
 	    
-	    <Dependency>glibc-32bit</Dependency>
             <Dependency>libpcre</Dependency>
             <Dependency>zlib</Dependency>
             <Dependency>elfutils</Dependency>
@@ -66,8 +63,7 @@
         <PartOf>system.devel</PartOf>
         <Summary>Development files for glib2</Summary>
 	<BuildDependencies>
-	    <Dependency>glib2-32bit</Dependency>
-            <Dependency>glibc-32bit</Dependency>
+
         </BuildDependencies>
         <RuntimeDependencies>
             <Dependency release="current">glib2</Dependency>
@@ -105,13 +101,7 @@
         <PartOf>emul32</PartOf>
         <Summary>32-bit shared libraries for glib2</Summary>
         <BuildType>_emul32</BuildType>
-        <BuildDependencies>
-            <Dependency>libpcre-32bit</Dependency>
-            <Dependency>zlib-32bit</Dependency>
-            <Dependency>libffi-32bit</Dependency>
-            <Dependency>dbus-32bit</Dependency>
-            <Dependency>glibc-32bit</Dependency>
-        </BuildDependencies>
+        
         <RuntimeDependencies>
             <Dependency release="current">glib2</Dependency>
             <Dependency>libpcre-32bit</Dependency>

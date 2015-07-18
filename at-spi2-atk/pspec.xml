@@ -46,7 +46,7 @@
         <Summary>32-bit shared libraries for at-spi2-atk</Summary>
         <BuildType>emul32</BuildType>
         <BuildDependencies>
-            <Dependency>at-spi2-core-32bit</Dependency>
+
         </BuildDependencies>
         <RuntimeDependencies>
             <Dependency>atk-32bit</Dependency>
@@ -67,7 +67,7 @@
         <Name>at-spi2-atk-devel</Name>
         <Summary>at-spi2-atk için geliştirme dosyaları</Summary>
         <RuntimeDependencies>
-            <Dependency release="current">at-spi2-atk</Dependency>
+<!--             <Dependency release="current">at-spi2-atk</Dependency> -->
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib32/pkgconfig</Path>
