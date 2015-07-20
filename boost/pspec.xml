@@ -30,6 +30,9 @@
         <RuntimeDependencies>
             <Dependency>icu4c</Dependency>
             <Dependency>openmpi</Dependency>
+	    <Dependency>zlib</Dependency>
+            <Dependency>bzip2</Dependency>
+	    <Dependency>libgcc</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
