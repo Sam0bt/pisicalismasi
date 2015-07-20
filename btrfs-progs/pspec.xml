@@ -12,7 +12,7 @@
         <IsA>app:console</IsA>
         <Summary>Userspace utilities for btrfs</Summary>
         <Description>btrfs-progs package provides all the userspace programs needed to create, check, modify and correct any inconsistencies in the btrfs filesystem.</Description>
-        <Archive sha1sum="fb274caeb15acbf434ac19f49d565d93bcca0b7f" type="targz">/home/gulle/btrfs-progs.tar.gz</Archive>
+        <Archive sha1sum="fb274caeb15acbf434ac19f49d565d93bcca0b7f" type="targz">https://raw.githubusercontent.com/aligulle1/pisicalismasi/master/btrfs-progs.tar.gz</Archive>
         <BuildDependencies>
             <Dependency>xmlto</Dependency>
             <Dependency>asciidoc</Dependency>
