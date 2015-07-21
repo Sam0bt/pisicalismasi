@@ -1,0 +1,62 @@
+<PISI>
+    <Source>
+        <Name>OpenCPN</Name>
+        <Homepage>http://opencpn.org</Homepage>
+        <Packager>
+            <Name>ali algul</Name>
+            <Email>alialgul@pisilinux.org</Email>
+        </Packager>
+        <License>GPL2</License>
+        <Summary>Open Source Chart Plotting / Marine Navigation</Summary>
+        <Description>Open Source Chart Plotting / Marine Navigation</Description>
+        <BuildDependencies>
+            <Dependency>cmake</Dependency>
+        </BuildDependencies>
+	<Patches>
+	    <Patch level="1">gcc5.patch</Patch>
+	</Patches> 
+        <Archive sha1sum="c128d1d17bdc3bc9c19d3ae2f2ee8ea1a3b5bc20" type="targz">https://codeload.github.com/OpenCPN/OpenCPN/tar.gz/v4.0.0</Archive>
+    </Source>
+    <Package>
+        <Name>OpenCPN</Name>	  
+        <RuntimeDependencies>
+            <Dependency>cmake</Dependency>
+            <Dependency>gpsd</Dependency>
+            <Dependency>icon-theme-hicolor</Dependency>
+            <Dependency>portaudio</Dependency>
+            <Dependency>tinyxml</Dependency>
+            <Dependency>wxGTK</Dependency>
+	    <Dependency>mesa</Dependency>
+            <Dependency>zlib</Dependency>
+            <Dependency>bzip2</Dependency>
+            <Dependency>cairo</Dependency>
+            <Dependency>libgcc</Dependency>
+            <Dependency>wxBase</Dependency>
+	    <Dependency>mesa-glu</Dependency>
+        </RuntimeDependencies>
+        <Files>
+             <Path fileType="locale">/usr/share/locale/</Path> 
+	     <Path fileType="executable">/usr/bin/opencpn</Path>
+	     <Path fileType="executable">/usr/lib/opencpn/</Path>
+	      <Path fileType="doc">/usr/share/doc/opencpn/</Path>
+	      <Path fileType="doc">/usr/share/opencpn/doc/</Path>
+	      <Path fileType="data">/usr/share/applications</Path>
+	      <Path fileType="data">/usr/share/icons/hicolor/</Path>
+	      <Path fileType="data">/usr/share/opencpn/s57data/</Path>
+	      <Path fileType="data">/usr/share/opencpn/sounds/</Path>
+	      <Path fileType="data">/usr/share/opencpn/uidata/</Path>
+	      <Path fileType="data">/usr/share/opencpn/license.txt</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-07-21</Date>
+            <Version>4.0.0</Version>
+            <Comment>build</Comment>
+            <Name>ali algul</Name>
+            <Email>alialgul@pisilinux.org</Email>
+        </Update>
+    </History>
+</PISI>
+
+<!-- By PiSiDo 2.0.0 -->
