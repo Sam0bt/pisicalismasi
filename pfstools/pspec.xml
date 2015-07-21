@@ -1,0 +1,51 @@
+<PISI>
+    <Source>
+        <Name>pfstools</Name>
+        <Homepage>http://pfstools.sourceforge.net/</Homepage>
+        <Packager>
+            <Name>ali algul</Name>
+            <Email>alialgul@pisilinux.com</Email>
+        </Packager>
+        <License>LGPL2.1</License>
+        <Summary>Set of command line programs for reading, writing and manipulating high-dynamic range (HDR) images</Summary>
+        <Description>Set of command line programs for reading, writing and manipulating high-dynamic range (HDR) images</Description>
+        <BuildDependencies>
+<!--             <Dependency></Dependency> -->
+<!--             <Dependency></Dependency> -->
+<!--             <Dependency></Dependency> -->
+        </BuildDependencies>
+        <Archive sha1sum="ef81ee0d55c68fe0925777da16d093f3a4616add" type="targz">http://fossies.org/linux/privat/pfstools-2.0.4.tgz</Archive>
+    </Source>
+    <Package>
+        <Name>pfstools</Name>
+        <RuntimeDependencies>
+            <Dependency>mesa</Dependency>
+            <Dependency>libgcc</Dependency>
+            <Dependency>freeglut</Dependency>
+           <Dependency>mesa-glu</Dependency> -->
+            <Dependency>imagemagick</Dependency>
+            <Dependency>ilmbase</Dependency>
+            <Dependency>openexr-libs</Dependency>
+	     <Dependency>tiff</Dependency>
+	     <Dependency>libgomp</Dependency>
+        </RuntimeDependencies>
+        <Files>
+             <Path fileType="man">/usr/share/man/man1/</Path> 
+	     <Path fileType="doc">/usr/share/pfstools/</Path>
+	     <Path fileType="executable">/usr/bin/</Path>
+	     <Path fileType="libary">/usr/lib/</Path>
+	     <Path fileType="doc">/usr/include/pfs/</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-07-21</Date>
+            <Version>2.0.4</Version>
+            <Comment>build</Comment>
+            <Name>ali algul</Name>
+            <Email>alialgul@pisilinux.com</Email>
+        </Update>
+    </History>
+</PISI>
+
+<!-- By PiSiDo 2.0.0 -->

@@ -1,0 +1,48 @@
+<PISI>
+    <Source>
+        <Name>worker</Name>
+        <Homepage>http://www.boomerangsworld.de/worker</Homepage>
+        <Packager>
+            <Name>ali algul</Name>
+            <Email>alialgul@pisilinux.org</Email>
+        </Packager>
+        <License>GPL</License>
+        <Summary>A file manager for the X Window System</Summary>
+        <Description>A file manager for the X Window System</Description>
+        <BuildDependencies>
+<!--             <Dependency></Dependency> -->
+        </BuildDependencies>
+        <Archive sha1sum="f802a95eb40228315613eca7e1a082ad214279ae" type="targz">http://fossies.org/linux/privat/worker-3.8.0.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>worker</Name>
+        <RuntimeDependencies>
+            <Dependency>file</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>libgcc</Dependency>
+	    <Dependency>libXinerama</Dependency>
+            <Dependency>libXft</Dependency>
+            <Dependency>dbus</Dependency>
+        </RuntimeDependencies>
+        <Files>
+             <Path fileType="doc">/usr/share/worker/</Path>
+	     <Path fileType="man">/usr/share/man/</Path>
+	     <Path fileType="config">/usr/share/worker/config-updates/</Path>
+	     <Path fileType="executable">/usr/bin/worker</Path>
+	     <Path fileType="data">/usr/share/pixmaps/</Path>
+	     <Path fileType="data">/usr/share/worker/scripts/</Path>
+	     <Path fileType="data">/usr/share/applications</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-07-21</Date>
+            <Version>3.8.0</Version>
+            <Comment>build</Comment>
+            <Name>ali algul</Name>
+            <Email>alialgul@pisilinux.org</Email>
+        </Update>
+    </History>
+</PISI>
+
+<!-- By PiSiDo 2.0.0 -->
