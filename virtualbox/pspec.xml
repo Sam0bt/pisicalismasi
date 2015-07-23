@@ -77,6 +77,15 @@
             <Dependency>virt-wrapper</Dependency>
             <Dependency>libvncserver</Dependency>
             <Dependency version="current">module-virtualbox</Dependency>
+	    <Dependency>qt</Dependency>
+            <Dependency>curl</Dependency>
+            <Dependency>zlib</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>libgcc</Dependency>
+            <Dependency>libpng</Dependency>
+            <Dependency>python</Dependency>
+            <Dependency>libxml2</Dependency>
+	    <Dependency>opensll</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="data">/etc/vbox</Path>
