@@ -55,21 +55,17 @@
             <Dependency>mesa</Dependency>
             <Dependency>libXi</Dependency>
             <Dependency>boost</Dependency>
-            <Dependency>openal</Dependency>
-            <Dependency>libsdl</Dependency>
+            <Dependency>openal</Dependency>            
             <Dependency>libgomp</Dependency>
             <Dependency>python3</Dependency>
             <Dependency>ilmbase</Dependency>
-            <Dependency>mesa-glu</Dependency>
-            <Dependency>openjpeg</Dependency>
-            <Dependency>libspnav</Dependency>
+            <Dependency>mesa-glu</Dependency>            
             <Dependency>libXxf86vm</Dependency>
             <Dependency releaseFrom="7">openimageio</Dependency>
             <Dependency>openexr-libs</Dependency>
             <Dependency>libsndfile</Dependency>
             <Dependency>ffmpeg</Dependency>
-            <Dependency>fftw3</Dependency>
-            <Dependency>jack-audio-connection-kit</Dependency>
+            <Dependency>fftw3</Dependency>            
 	    <Dependency>zlib</Dependency>
             <Dependency>libX11</Dependency>
             <Dependency>libgcc</Dependency>
@@ -97,7 +93,7 @@
 
     <History>
       <Update release="18">
-            <Date>2015-01-24</Date>
+            <Date>2015-06-24</Date>
             <Version>2.75</Version>
             <Comment>Version bump.</Comment>
             <Name>Ali Algul</Name>
