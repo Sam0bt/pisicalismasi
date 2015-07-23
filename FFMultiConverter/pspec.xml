@@ -41,7 +41,7 @@
       <Update release="7">
             <Date>2015-06-24</Date>
             <Version>1.7.1</Version>
-            <Comment>Update source launchpad,fix runtime error</Comment>
+            <Comment>versionbump</Comment>
             <Name>alialgül</Name>
             <Email>alialgul@pisilinux.org</Email>
         </Update>
